@@ -1,5 +1,5 @@
-var a = 9;
-var b = 8;
+var a = 10;
+var b = 10;
 var c = 10;
 
 function findMax(x, y, z)
@@ -20,5 +20,13 @@ function findMax(x, y, z)
 
 findMax();
 var whichIsTheBiggestNumber = findMax(a, b, c);
-console.log("The biggest number is: ", whichIsTheBiggestNumber);
+if (a == b && b == c)
+{
+    console.log("Three equal numbers with a = b = c = ", a);
+}
+else
+{
+    console.log("The biggest number is: ", whichIsTheBiggestNumber);
+}
+
 
