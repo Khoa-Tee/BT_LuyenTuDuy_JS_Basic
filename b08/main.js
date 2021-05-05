@@ -1,4 +1,5 @@
 var arrayInteger = [0, -1, 1, -2, -3, 5, 6, 20, 26, -97, 99, 100];
+console.log("arrayInteger = ", arrayInteger);
 
 function largestNumber(arrayInteger) 
 {
